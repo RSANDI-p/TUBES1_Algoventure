@@ -1,7 +1,7 @@
 # Greedy Algorithm Implementation - Algoventure
 
 ## 🌟 Overview
-This bot implements a greedy algorithm to efficiently collect diamonds in a grid-based game by always making locally optimal decisions at each step.
+The greedy algorithm implemented in this diamond collector bot consistently seeks locally optimal solutions at each decision point. At every turn, the bot selects the most immediately advantageous move - prioritizing the closest diamond based on Manhattan distance, returning to base when inventory is full, or when the base becomes nearer than the next diamond. The algorithm also opportunistically utilizes game features like teleporters when they provide an immediate path optimization, always choosing the option that maximizes short-term gains without considering longer-term collection strategies. This approach exemplifies classic greedy behavior by making the most beneficial local decision at each step while potentially sacrificing global optimization.
 
 ## 📦 Prerequisites
 Before running, ensure you have:
